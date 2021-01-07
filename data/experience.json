@@ -1,0 +1,26 @@
+[
+    {
+        "role":"Senior Site Reliability Engineer - Services",
+        "company":"F5 Networks",
+        "summary":"Scaling out a WAF infrstructure that is not designed to scale\n- Infrastructe as code - mostly using Ansible\n- using git\n- things",
+        "range":"February 2016 - Present"
+    },
+    {
+        "role":"Senior Site Reliability Engineer - Proxy",
+        "company":"F5 Networks",
+        "summary":"Scaling out a WAF infrstructure that is not designed to scale\n- Infrastructe as code - mostly using Ansible\n- using git\n- things",
+        "range":"February 2016 - Present"
+    },
+    {
+        "role":"Software Engineer",
+        "company":"F5 Networks",
+        "summary":"Whipping out lua scripts to filter through xml.  Ultimately finding bugs and bad configuration in BigIPs in iHealth",
+        "range":"February 2016 - Present"
+    },
+    {
+        "role":"test",
+        "company":"F5 Networks",
+        "summary":"Whipping out lua scripts to filter through xml.  Ultimately finding bugs and bad configuration in BigIPs in iHealth",
+        "range":"February 2016 - Present"
+    }
+]
