@@ -27,5 +27,4 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           external_repository: rileyschuit/resume
-          publish_branch: master
-          publish_dir: ./public
+          publish_branch: gh-pages
