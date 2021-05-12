@@ -9,4 +9,4 @@ outputs:
 - rss
 - json
 ---
-Experienced Site Reliable Engineer with interests in many modern technologies.
+Experienced SRE and technology enthusiast.
