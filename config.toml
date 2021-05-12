@@ -38,7 +38,7 @@ name = "GitHub"
 
 [[params.handles]]
 link = "https://hub.docker.com/rileyschuit"
-name = "DockerHub"
+name = "Docker"
 
 # [[params.handles]]
 # link = "https://stackoverflow.com/users/story/82880"
