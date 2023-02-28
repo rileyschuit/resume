@@ -1,9 +1,15 @@
 [
     {
+        "role":"Pratice Architect II",
+        "company": "Tek Systems",
+        "summary": "**Summary:** Drive standards of Ansible Automation across clients and enforce them with our contractors\n- Centene - Standardize automation efforts and oversee progress to align with customer goals.",
+        "range": "June 2021 - Present"
+    },
+    {
         "role":"Intigrations Engineer",
         "company":"Menlo Security ",
-        "summary":"( To be determined )",
-        "range":"May 2021 - Present"
+        "summary":"- Assisted customers enable the proxy platform",
+        "range":"May 2021 - June 2021"
     },
     {
         "role":"Contractor - Network Automation Engineer",
@@ -21,7 +27,7 @@
         "role":"Senior Site Reliability Engineer - Services",
         "company":"F5 Networks",
         "summary":"**Summary:** Assist with internal services and automation\n- Infrastructe as code - mostly using Ansible\n- Dabbling with puppet and terraform",
-        "range":"April 2020 - Present"
+        "range":"April 2020 - May 2021"
     },
     {
         "role":"Senior Site Reliability Engineer - Proxy",
