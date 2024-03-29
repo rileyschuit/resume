@@ -5,15 +5,14 @@
     <link>https://resume.rileyschuit.com/tags/maven/</link>
     <description>Recent content in Maven on Riley Schuit</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://resume.rileyschuit.com/tags/maven/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://resume.rileyschuit.com/tags/maven/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker image for Bitbucket CI/CD Pipelines  &#34;shipit&#34;</title>
       <link>https://resume.rileyschuit.com/projects/creations/docker-marketplace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://resume.rileyschuit.com/projects/creations/docker-marketplace/</guid>
       <description>Provides required dependencies and additional utilities to simplify and codify the process of building, testing and delivering Atlassian plugins all the way to the live marketplace. Executes integration/AUT level tests against all stated compatible versions for the productUploads generated artifact to Atlassian marketplaceProvides corresponding metadata indicating version, release notes, and compatibility</description>
     </item>
-    
   </channel>
 </rss>

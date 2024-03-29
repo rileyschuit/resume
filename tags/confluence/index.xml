@@ -5,15 +5,14 @@
     <link>https://resume.rileyschuit.com/tags/confluence/</link>
     <description>Recent content in Confluence on Riley Schuit</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://resume.rileyschuit.com/tags/confluence/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://resume.rileyschuit.com/tags/confluence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Atlassian Marketplace Plugins</title>
       <link>https://resume.rileyschuit.com/projects/creations/marketplace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://resume.rileyschuit.com/projects/creations/marketplace/</guid>
       <description>Multiple plugins used by thousands of teams that provide enhanced functionality of Atlassian’s core products (primarily JIRA and Bamboo) to enrich CI/CD capabilities, DevOps automation, or productivity. Functionality spans user interface, web services and persistence.</description>
     </item>
-    
   </channel>
 </rss>

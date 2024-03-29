@@ -46,6 +46,9 @@
     <loc>https://resume.rileyschuit.com/tags/atlassian-ecosystem/</loc>
     <lastmod>2018-02-11T12:41:05-05:00</lastmod>
   </url><url>
+    <loc>https://resume.rileyschuit.com/tags/bash/shell/</loc>
+    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
+  </url><url>
     <loc>https://resume.rileyschuit.com/tags/bosh/</loc>
     <lastmod>2018-02-11T12:41:05-05:00</lastmod>
   </url><url>
@@ -62,6 +65,9 @@
     <lastmod>2018-02-11T12:41:05-05:00</lastmod>
   </url><url>
     <loc>https://resume.rileyschuit.com/tags/python/</loc>
+    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>https://resume.rileyschuit.com/tags/xml/xslt/</loc>
     <lastmod>2018-02-11T12:41:05-05:00</lastmod>
   </url><url>
     <loc>https://resume.rileyschuit.com/</loc>
@@ -95,8 +101,6 @@
   </url><url>
     <loc>https://resume.rileyschuit.com/tags/bamboo/</loc>
   </url><url>
-    <loc>https://resume.rileyschuit.com/tags/bash/shell/</loc>
-  </url><url>
     <loc>https://resume.rileyschuit.com/tags/bitbucket/</loc>
   </url><url>
     <loc>https://resume.rileyschuit.com/tags/confluence/</loc>
@@ -115,7 +119,5 @@
     <priority>0.1</priority>
   </url><url>
     <loc>https://resume.rileyschuit.com/tags/spring/</loc>
-  </url><url>
-    <loc>https://resume.rileyschuit.com/tags/xml/xslt/</loc>
   </url>
 </urlset>
