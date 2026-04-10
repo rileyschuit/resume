@@ -1,56 +1,56 @@
 [
     {
-        "role":"Pratice Architect II",
-        "company": "Tek Systems",
-        "summary": "**Summary:** Drive standards of Ansible Automation across clients and enforce them with our contractors\n- Centene - Standardize automation efforts and oversee progress to align with customer goals.\n- Redhat(partnership) - Assist with client training to show the benifits of automation.",
+        "role": "Automation Engineer - Practice Architect II",
+        "company": "TekSystems",
+        "summary": "**Summary:** Led enterprise automation and infrastructure modernization initiatives across multiple client environments. Partnered with infrastructure, application, DevOps, and management teams to define standards, implement automation frameworks, and improve reliability and consistency. Participated in hiring including conducting interviews, provided performance feedback, and presented automation strategies and modernization plans to executive stakeholders.\n- Led cross-functional teams through enterprise Ansible repository architecture and governance, establishing standards for playbook structure, module development, version control, and code review processes across multiple environments.\n- Served as an escalation point for automation initiatives, resolving complex technical blockers, reprioritizing workloads, and making go/no-go decisions to maintain delivery timelines and platform stability.\n- Directed migrations to Ansible AWX / Tower / AAP, coordinating engineers, defining cutover strategies, and ensuring continuity of automation services during transition.\n- Architected and demonstrated CLI-to-AWX/Tower automation frameworks for diverse host environments, standardizing execution models and improving operational consistency.\n- Mentored internal engineers, consultants, and client teams on automation best practices, providing structured guidance on Ansible design patterns, inventory strategy, and scalable automation architecture.\n- Designed and implemented dynamic inventory integrations with authoritative sources of truth, improving data accuracy and reducing manual configuration drift.\n- Developed event-driven automation by integrating monitoring triggers with AWX/Tower APIs and external systems, enabling automated remediation and self-healing workflows.\n- Partnered with strategic stakeholders and customer teams to advance automation adoption, delivering technical workshops and guiding shared customers through modernization roadmaps.",
         "range": "June 2021 - October 2025"
     },
     {
-        "role":"Intigrations Engineer",
-        "company":"Menlo Security ",
-        "summary":"- Assisted customers enable the proxy platform",
-        "range":"May 2021 - June 2021"
+        "role": "Owner",
+        "company": "Sturgeon Technologies",
+        "summary": "**Summary:** Sole proprietorship providing flexible, client-focused consulting for networking, infrastructure, and application modernization projects.\n- Design and troubleshoot network setups, assist with application containerization, and maintain a small Kubernetes cluster for proof-of-concept and client deployments.\n- Develop and test serverless workflows, IoT systems (Arduino/MQTT), and home automation solutions (Z-Wave/MQTT) with CI-managed configurations.\n- Build localized full-stack development environments for Angular applications and containerize applications for deployment on clustered CoreOS environments.\n- Advise clients on practical infrastructure improvements, guide implementation, and mentor teams on automation, workflow, and best practices.",
+        "range": "August 2018 - Present"
     },
     {
-        "role":"Contractor - Network Automation Engineer",
-        "company":"Tek Systems",
-        "summary":"**Summary:** Small contracts involving automation\n- Paychex - Assisted with designing idempotent playbook for deploying or rolling back iRules and virtual server configuration",
-        "range":"April 2021"
+        "role": "Integrations Support Engineer",
+        "company": "Menlo Security",
+        "summary": "**Summary:** Provided technical support for Menlo Security's isolation platform and assisted with integration and deployment issues for customers using web and email security services.\n- Worked with internal engineering, operations, and customer teams to troubleshoot complex integration challenges, analyze technical problems, and deliver responsive solutions.",
+        "range": "May 2021 - June 2021"
     },
     {
-        "role":"Owner / Operator",
-        "company":"Sturgeon Technologies",
-        "summary":"**Summary:** Just a little LLC I have doing little side tasks\n- Manage a small hosting environment\n- Consult local clients\n- Resell Internet Access\n- Research and develop 3d printing technologies",
-        "range":"August 2020 - Present"
+        "role": "Senior Site Reliability Engineer - Services Team (Silverline)",
+        "company": "F5 Networks",
+        "summary": "**Summary:** Architected, deployed, and supported solutions across multiple teams including application load balancing (L4-L7) and Global Server Load Balancing (GSLB).\n- Guided internal teams and client-facing engineers in adopting Ansible automation, Tower, and AWX best practices to improve consistency and operational efficiency.\n- Coordinated with development, operations, and infrastructure teams to ensure reliable testing and release processes across multiple environments.\n- Served as a technical escalation point for automation and platform issues, driving resolution and maintaining system stability.",
+        "range": "April 2020 - May 2021"
     },
     {
-        "role":"Senior Site Reliability Engineer - Services",
-        "company":"F5 Networks",
-        "summary":"**Summary:** Assist with internal services and automation\n- Infrastructe as code - mostly using Ansible\n- Dabbling with puppet and terraform",
-        "range":"April 2020 - May 2021"
+        "role": "Senior Site Reliability Engineer - Proxy Team (Silverline)",
+        "company": "F5 Networks",
+        "summary": "**Summary:** Managed proxy architecture and collaborated with development, operations, and engineering teams to align deployment strategies with business and customer requirements.\n- Built and maintained Ansible playbooks and automated tasks, mentoring junior engineers and consulting teams on best practices.\n- Maintained dynamic inventory scripts using etcd for configuration management across Ansible CLI, Tower, and AWX.\n- Increased WAF policy capacity by 1900% to meet growing demand.\n- Designed and implemented GSLB strategies to migrate proxy infrastructure to AWS.\n- Acted as a liaison between engineering teams and leadership to communicate system status, risk, and reliability improvements.",
+        "range": "February 2016 - April 2020"
     },
     {
-        "role":"Senior Site Reliability Engineer - Proxy",
-        "company":"F5 Networks",
-        "summary":"**Summary:** Keeping BigIPs alive\n- Assisted with scaling out a WAF infrstructure that is not designed to scale\n- Infrastructe as code - mostly using Ansible along with Tower and AWX\n- Designed and maintained GSLB deployment playbooks",
-        "range":"February 2016 - April 2020"
+        "role": "Software Engineer",
+        "company": "F5 Networks",
+        "summary": "**Summary:** Developed heuristics in Lua for the iHealth web application.\n- Assisted with troubleshooting using deep product knowledge of F5 solutions.\n- Collaborated with cross-functional teams to integrate new features and improve automation tooling used in production environments.",
+        "range": "2014 - 2016"
     },
     {
-        "role":"Software Engineer",
-        "company":"F5 Networks",
-        "summary":"**Summary:** Whipping out lua scripts to filter through xml.  Ultimately finding bugs and bad configuration in BigIPs in iHealth",
-        "range":"2016 - 2017"
+        "role": "Enterprise Account Engineer",
+        "company": "F5 Networks",
+        "summary": "**Summary:** Supported LTM, GTM, APM, and EM platforms for large enterprise clients, troubleshooting complex network and application issues across multiple locations and systems.\n- Advised clients on infrastructure upgrades and configuration improvements to improve performance, reliability, and scalability.\n- Collaborated with internal engineering teams to escalate and resolve customer-impacting issues, ensuring smooth deployments and operational continuity.",
+        "range": "2013 - 2014"
     },
     {
-        "role":"Network Support Engineer -> Enterprise Account Engineer",
-        "company":"F5 Networks",
-        "summary":"**Summary:** Supported LTM, GTM, APM, EM modules",
-        "range":"2010 - 2014"
+        "role": "Senior Network Support Engineer",
+        "company": "F5 Networks",
+        "summary": "**Summary:** Served as the primary point of contact for complex network and application issues on F5 LTM, GTM (9.x-11.x), and EM (2.x-3.x) platforms for enterprise clients.\n- Led troubleshooting and resolution efforts, guiding both client teams and internal engineers to restore service and maintain stability.\n- Provided technical leadership and guidance to peers, helping engineers escalate and resolve challenging BigIP and application problems.",
+        "range": "2010 - 2013"
     },
     {
-        "role":"Radiologist Technical Support - Systems Analyst",
-        "company":"NightHawk Radiology",
-        "summary":"**Summary:** Assisted with dicom delivery\n- Assisted hospital's transmitting DICOM images\n- Deployed remote locations for Radiologists",
-        "range":"2010 - 2014"
+        "role": "Lead Systems Analyst & Remote Radiologist Support",
+        "company": "NightHawk Radiology Services",
+        "summary": "**Summary:** Led operational workflows and coordinated support for approximately 140 remote and local radiologist locations, ensuring critical DICOM imaging and VPN systems remained fully operational.\n- Traveled on site as needed to deploy, configure, and troubleshoot complex imaging infrastructure.\n- Directed troubleshooting and resolution of complex infrastructure and connectivity issues, serving as the escalation point for both technical and operational challenges.\n- Guided and mentored support engineers, providing technical guidance, process improvements, and training.\n- Partnered with hospital IT teams, radiologists, and ISPs to plan and implement infrastructure improvements.\n- Oversaw deployment, maintenance, and monitoring of VPNs, imaging systems, and reading stations.",
+        "range": "2006 - 2010"
     }
 ]

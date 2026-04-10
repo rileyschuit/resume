@@ -1,21 +1,30 @@
 [
-  {
-      "grouping":"Architecture",
-      "skills":[ "IP Networking","DNS","Firewalls","Load Balancing and Application performance","Microservices","RESTful APIs","SaaS/PaaS/IaaS"]
-  },{
-      "grouping":"Languages, Operating Systems & Tools",
-      "skills":[ "Python","bash","javascript","git","linux"]
-  },
-  {
-      "grouping":"Platform Development & Administration",
-      "skills":[ "Atlassian","Bitbucket","Github","Docker","Kubernetes","NGINX","AWS"]
-  },
-  {
-    "grouping":"Containers, Cloud, CI/CD",
-      "skills":[
-          {"name":"Github","link":"https://www.github.com/rileyschuit"},
-          {"name":"Docker","link":"https://hub.docker.com/r/rileyschuit/"},
-          {"name":"TravisCI","link":"https://travis-ci.org/github/rileyschuit"}
-      ]
-  }
+    {
+        "grouping": "Automation & Configuration Management",
+        "skills": ["Ansible", "AWX", "Ansible Tower", "AAP", "Event-Driven Automation", "Dynamic Inventory", "Lua", "etcd"]
+    },
+    {
+        "grouping": "Infrastructure & Cloud",
+        "skills": ["Kubernetes", "Docker", "CoreOS", "AWS", "GSLB", "Load Balancing (L4-L7)", "F5 LTM/GTM/APM/EM", "WAF", "NGINX"]
+    },
+    {
+        "grouping": "Networking & Security",
+        "skills": ["IP Networking", "DNS", "Firewalls", "VPN", "DICOM", "Menlo Security", "Network Architecture"]
+    },
+    {
+        "grouping": "Languages, OS & Tools",
+        "skills": ["Python", "bash", "JavaScript", "Lua", "Git", "Linux", "Angular"]
+    },
+    {
+        "grouping": "Platforms & CI/CD",
+        "skills": [
+            {"name": "GitHub", "link": "https://www.github.com/rileyschuit"},
+            {"name": "Docker Hub", "link": "https://hub.docker.com/r/rileyschuit/"},
+            {"name": "TravisCI", "link": "https://travis-ci.org/github/rileyschuit"}
+        ]
+    },
+    {
+        "grouping": "IoT & Home Automation",
+        "skills": ["Arduino", "MQTT", "Z-Wave", "Raspberry Pi", "Serverless Workflows", "3D Printing"]
+    }
 ]
