@@ -1,0 +1,109 @@
+name: PR — Hugo build test
+
+# Validates that any pull request against master can produce a clean Hugo
+# build before merge. Doesn't deploy anything — gh-pages.yml handles deploy
+# when the PR lands on master.
+
+on:
+  pull_request:
+    branches: [master]
+
+permissions:
+  contents: read
+  pull-requests: write   # so the workflow can leave a build-summary comment
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (with theme submodule)
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 1
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Show Hugo version
+        run: hugo version
+
+      - name: Build (production-mode, minify)
+        run: hugo --minify --gc --logLevel info
+
+      - name: Verify output
+        id: verify
+        run: |
+          set -euo pipefail
+          if [ ! -s public/index.html ]; then
+            echo "::error::public/index.html missing or empty after build"
+            exit 1
+          fi
+          FILES=$(find public -type f | wc -l | tr -d ' ')
+          BYTES=$(du -sb public 2>/dev/null | awk '{print $1}' || du -sk public | awk '{print $1*1024}')
+          echo "files=$FILES" >> "$GITHUB_OUTPUT"
+          echo "bytes=$BYTES" >> "$GITHUB_OUTPUT"
+          echo "::notice::Built $FILES files, $(numfmt --to=iec --suffix=B $BYTES 2>/dev/null || echo "${BYTES}B")"
+          if [ "$FILES" -lt 5 ]; then
+            echo "::error::Suspiciously few files produced ($FILES) — something probably broke"
+            exit 1
+          fi
+
+      - name: Check for broken internal links
+        uses: lycheeverse/lychee-action@v2
+        continue-on-error: true   # links are nice-to-have; don't block PR on flaky externals
+        with:
+          args: >-
+            --no-progress
+            --max-concurrency 4
+            --accept 200,204,301,302
+            --exclude-mail
+            --exclude-path public/categories
+            --exclude-path public/tags
+            public/
+          fail: false
+          jobSummary: true
+
+      - name: Comment build summary on PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const files = "${{ steps.verify.outputs.files }}";
+            const bytes = "${{ steps.verify.outputs.bytes }}";
+            const mb = (Number(bytes) / 1024 / 1024).toFixed(2);
+            const body = [
+              `### ✅ Hugo build OK`,
+              ``,
+              `- **Files:** ${files}`,
+              `- **Size:** ${mb} MB`,
+              `- **SHA built:** \`${context.sha.slice(0, 7)}\``,
+              ``,
+              `_Deploy will happen automatically when this PR lands on \`master\` (see \`.github/workflows/gh-pages.yml\`)._`,
+            ].join("\n");
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            const existing = comments.find(c =>
+              c.user.type === "Bot" && c.body.startsWith("### ✅ Hugo build OK"));
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body,
+              });
+            }
