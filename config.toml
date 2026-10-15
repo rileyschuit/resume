@@ -8,19 +8,18 @@ PygmentsStyle = "monokai"
 enableGitInfo = false
 
 [params]
-address = "Rathdrum, ID"
 email = "riley.schuit@gmail.com"
 favicon = "/favicon.ico"
 firstName = "Riley"
 lastName = "Schuit"
-phone = "1-208-667-0140"
+calendly = "https://calendly.com/riley-schuit/30min"
 profileImage = "img/workpic.jpeg"
 showEducation = true
 showExperience = true
 showOpenSource = false
 showProjects = false
 showPublications = false
-showQr = true
+showQr = false
 showSkills = true
 
 [params.google]

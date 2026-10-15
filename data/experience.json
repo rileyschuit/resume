@@ -2,7 +2,7 @@
     {
         "role": "Systems Engineer - automation",
         "company": "DAHL -> Sunrun",
-        "summary": "**Summary:** Helping with day-to-day operations. Researching migration paths for migrating into native AWS services.\n\n*Position ended May 2026; no reason for separation provided by employer.*",
+        "summary": "**Summary:** Supported day-to-day infrastructure operations and researched migration paths from existing systems onto native AWS services.",
         "range": "February 2026 - May 2026"
     },
     {
@@ -14,7 +14,7 @@
     {
         "role": "Owner",
         "company": "Sturgeon Technologies",
-        "summary": "**Summary:** Sole proprietorship providing flexible, client-focused consulting for networking, infrastructure, and application modernization projects.\n- Design and troubleshoot network setups, assist with application containerization, and maintain a small Kubernetes cluster for proof-of-concept and client deployments.\n- Develop and test serverless workflows, IoT systems (Arduino/MQTT), and home automation solutions (Z-Wave/MQTT) with CI-managed configurations.\n- Build localized full-stack development environments for Angular applications and containerize applications for deployment on clustered CoreOS environments.\n- Advise clients on practical infrastructure improvements, guide implementation, and mentor teams on automation, workflow, and best practices.",
+        "summary": "**Summary:** Sole proprietorship for infrastructure, automation, and IoT consulting, plus hosting and product work. I run the company's platform myself, as code.\n- Run a 6-node bare-metal Kubernetes cluster with Flux GitOps: every change goes through a PR, External Secrets pulls credentials from AWS Secrets Manager, and default-deny NetworkPolicies cover every namespace.\n- Migrated about 10 stateful workloads (Prometheus, Grafana, Loki, Home Assistant, AdGuard DNS, a macOS VM) between NFS file servers by creating new PersistentVolumes instead of mutating bound ones, and documented the export, UID-ownership and root_squash failure modes along the way.\n- Built an AWS serverless IoT device platform (SAM, Lambda, IoT Core, DynamoDB, S3, CloudFront): a containerized cloud firmware compiler, OTA updates through the device shadow, and an ESP32 device-management library with a captive portal, remote settings and button-driven network reset.\n- Designed and built an ESP32-S3 head tracker (BNO085 sensor fusion to PPM trainer input) that is managed and updated through that platform.\n- Built monitoring with Prometheus, Grafana and Loki: per-node early-warning (disk-fill forecasts, read-only root detection, thermals), SMART disk health, UniFi network health, and Discord alerting tuned to cut noise. Audited the cluster after a NetworkPolicy rollout and fixed the gaps that had left metrics collection blind.\n- Manage automation as code with AWX (self-reconciling config-as-code) and Ansible, and expose infrastructure to AI agents only through scoped RBAC, allow-lists and token-gated MCP endpoints.\n- Advise clients on practical infrastructure improvements, networking, and containerization, and mentor teams on automation practices.",
         "range": "August 2018 - Present"
     },
     {
