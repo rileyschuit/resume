@@ -33,7 +33,10 @@
             "S3",
             "CloudFront",
             "Secrets Manager",
-            "IAM"
+            "IAM",
+            "Cognito",
+            "SES / End User Messaging",
+            "GitHub OIDC deploy roles"
         ]
     },
     {
@@ -66,6 +69,7 @@
             "Python",
             "Go",
             "TypeScript",
+            "React",
             "bash",
             "C++ (ESP32 / Arduino)",
             "Lua"
@@ -80,7 +84,29 @@
             "IMU sensor fusion",
             "Home Assistant",
             "Z-Wave",
-            "3D Printing"
+            "3D Printing",
+            "Raspberry Pi",
+            "RTL-SDR",
+            "KiCad PCB design",
+            "WebRTC video (MediaMTX)"
+        ]
+    },
+    {
+        "grouping": "Payments & SaaS",
+        "skills": [
+            "Stripe Connect",
+            "Square OAuth",
+            "Multi-tenant design",
+            "Custom domains / ACM"
+        ]
+    },
+    {
+        "grouping": "AI & Agents",
+        "skills": [
+            "Claude Code",
+            "Multi-agent orchestration",
+            "MCP servers",
+            "Agent guardrails (scoped tokens, allow-lists)"
         ]
     },
     {

@@ -9,6 +9,6 @@ outputs:
 - rss
 - json
 ---
-Automation and infrastructure engineer: SRE background at F5, enterprise Ansible/AWX architecture at TEKsystems, and a self-hosted GitOps Kubernetes platform I run like production. I build the boring, reliable kind of automation, and I'm also working on hosting and small products under Sturgeon Technologies.
+Automation and infrastructure engineer: SRE background at F5, enterprise Ansible/AWX architecture at TEKsystems, and a self-hosted GitOps Kubernetes platform I run like production. I build the boring, reliable kind of automation. Under Sturgeon Technologies I also built and run [RC Race HQ](https://www.rcracehq.com), a multi-club SaaS for RC racing, plus its Raspberry Pi lap counter and a small team of AI agents that open PRs for me to review.
 
 Open to full-time roles in platform, SRE, and automation engineering. [Book a call](https://calendly.com/riley-schuit/30min) or email me.
